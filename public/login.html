@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-box">
+            <div class="welcome">
+                <h1>Welcome Back</h1>
+                <p>Please enter your credentials to continue</p>
+            </div>
+            <form class="form" action="">
+                <div class="group-username">
+                    <label for="Username">Username</label>
+                    <input type="text" placeholder="Enter your username">
+                </div>
+                <div class="group-password">
+                    <label for="Password">Password</label>
+                    <div class="group-password-inner">
+                        <div>
+                            <input type="text" placeholder="Enter your password">
+                        </div>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </button>
+                        <span style="display: inline-block;"></span>
+                    </div>
+                </div>
+                <button class="submit">
+                    <span >Sign in</span>
+                    <div class="spin"> </div>
+                </button>                    
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../src/login.js"></script>
+</html>
